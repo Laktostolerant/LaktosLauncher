@@ -1,8 +1,8 @@
 {
-  "name": "diabolicallauncher",
-  "productName": "Diabolical Launcher",
+  "name": "laktoslauncher",
+  "productName": "Laktos Launcher",
   "version": "0.0.0",
-  "description": "Launcher for the Diabolical Studios games",
+  "description": "Launcher for Laktostolerant's games",
   "main": "src/index.js",
   "scripts": {
     "start": "set ELECTRON_IS_DEV=0 && electron .",
@@ -10,14 +10,14 @@
     "dist": "electron-builder",
     "test": "jest"
   },
-  "repository": "https://github.com/Diabolical-Studios/DiabolicalGameLauncher",
+  "repository": "https://github.com/Laktostolerant/LaktosLauncher",
   "publish": {
     "provider": "github",
     "releaseType": "release"
   },
   "build": {
-    "appId": "com.yourdomain.diabolicallauncher",
-    "productName": "Diabolical Launcher",
+    "appId": "com.laktostolerant.laktoslauncher",
+    "productName": "Laktos Launcher",
     "directories": {
       "output": "dist"
     },
@@ -44,7 +44,7 @@
     }
   },
   "keywords": [],
-  "author": "doruksasmaz",
+  "author": "tigermartin",
   "license": "MIT",
   "dependencies": {
     "axios": "^1.7.4",

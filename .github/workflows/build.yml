@@ -77,8 +77,8 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
       with:
         upload_url: ${{ steps.create_release.outputs.upload_url }}
-        asset_path: ./dist/Diabolical Launcher Setup.exe
-        asset_name: Diabolical-Launcher-Setup.exe
+        asset_path: ./dist/Laktos Launcher Setup.exe
+        asset_name: Laktos-Launcher-Setup.exe
         asset_content_type: application/octet-stream
   
     - name: Upload Release Asset - Latest YML

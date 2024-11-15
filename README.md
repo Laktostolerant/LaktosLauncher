@@ -1,6 +1,8 @@
-# Diabolical Launcher
+# Laktos Launcher
 
-![Diabolical Launcher Logo](https://repository-images.githubusercontent.com/792842580/16442e04-f598-4024-b5b7-1cd3de882534)
+## WORK IN PROGRESS
+
+![LAKTOS Launcher Logo](https://repository-images.githubusercontent.com/792842580/16442e04-f598-4024-b5b7-1cd3de882534)
 
 Diabolical Launcher is a highly customizable game launcher designed for indie developers. Built on Electron, it supports auto-updates, integration with cloud storage solutions, and a dynamic UI for displaying game titles available for download.
 

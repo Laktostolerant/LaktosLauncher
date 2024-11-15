@@ -177,7 +177,7 @@ body {
 .MainIcon {
  width: 100px;
  height: 100px;
- transform: translate(-20px, -20px);
+ transform: translate(-20px, -30px);
 }
 
 .ActionBar img {

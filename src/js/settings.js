@@ -6,7 +6,7 @@ const diabolicalLauncherPath = path.join(
   os.homedir(),
   "AppData",
   "Local",
-  "Diabolical Launcher"
+  "Laktos Launcher"
 );
 
 const versionFilePath = (gameId) => path.join(diabolicalLauncherPath, `${gameId}-version.json`);

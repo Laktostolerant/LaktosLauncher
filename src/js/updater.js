@@ -13,7 +13,7 @@ const versionDirectory = path.join(
   os.homedir(),
   "AppData",
   "Local",
-  "Diabolical Launcher"
+  "Laktos Launcher"
 );
 
 // Function to initialize the updater with the main window instance
@@ -28,7 +28,7 @@ function initUpdater() {
   });
 
   autoUpdater.on("update-not-available", (info) => {
-    showMessage(`Diabolical Launcher Version:`);
+    showMessage(`Laktos Launcher Version:`);
   });
 
   autoUpdater.on("update-downloaded", (info) => {

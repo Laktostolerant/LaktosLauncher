@@ -8,7 +8,7 @@ const diabolicalLauncherPath = path.join(
   os.homedir(),
   "AppData",
   "Local",
-  "Diabolical Launcher"
+  "Laktos Launcher"
 );
 
 function getInstalledGames() {

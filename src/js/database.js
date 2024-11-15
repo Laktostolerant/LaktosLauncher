@@ -8,8 +8,8 @@ require('dotenv').config();
 function fetchGames() {
     return new Promise((resolve, reject) => {
         const options = {
-            hostname: 'diabolical.studio',
-            path: '/.netlify/functions/fetchGames',
+            hostname: 'magnificent-chaja-f770d0.netlify.app',
+            path: '/.netlify/functions/fetchGame',
             method: 'GET',
             headers: {
                 'Content-Type': 'application/json'
