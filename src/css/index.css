@@ -3,7 +3,7 @@ body {
   width: 100vw;
   height: 100vh;
   margin: 0;
-  background-color: #000;
+  background-color: #6b886d;
   background-image: radial-gradient(rgba(87, 87, 87, 0.3) 1px, transparent 1px),
     radial-gradient(rgba(87, 87, 87, 0.3) 1px, transparent 1px);
   background-position: 0 0, 0 0;
@@ -172,6 +172,12 @@ body {
   width: 60px;
   min-width: 60px;
   height: -webkit-fill-available;
+}
+
+.MainIcon {
+ width: 100px;
+ height: 100px;
+ transform: translate(-20px, -20px);
 }
 
 .ActionBar img {
