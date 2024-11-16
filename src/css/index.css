@@ -44,6 +44,19 @@ body {
   background-color: rgba(0, 0, 0, 0.7);
 }
 
+.MainIcon {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  transform: translate(-20px, -30px);
+  display: inline-block;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+
+.MainIcon:hover {
+  animation: jiggling 0.5s ease-in-out infinite;
+}
 
 
 @keyframes moveBackground {
@@ -54,6 +67,14 @@ body {
   100% {
     background-position: 20px 20px, 20px 20px;
   }
+}
+
+@keyframes jiggling {
+  0% { transform: translate(-20px, -30px) rotate(0deg); }
+  25% { transform: translate(-20px, -30px) rotate(5deg); }
+  50% { transform: translate(-20px, -30px) rotate(-5deg); }
+  75% { transform: translate(-20px, -30px) rotate(3deg); }
+  100% { transform: translate(-20px, -30px) rotate(0deg); }
 }
 
 .title-bar {
@@ -197,12 +218,6 @@ body {
   width: 60px;
   min-width: 60px;
   height: -webkit-fill-available;
-}
-
-.MainIcon {
- width: 100px;
- height: 100px;
- transform: translate(-20px, -30px);
 }
 
 .ActionBar img {
@@ -485,7 +500,7 @@ h2 {
   border: none;
   border-radius: 6px;
   outline: 1px solid #444444;
-  background-color: #000;
+  background-color: #699278;
   background-image: radial-gradient(rgba(87, 87, 87, 0.3) 1px, transparent 1px),
     radial-gradient(rgba(87, 87, 87, 0.3) 1px, transparent 1px);
   background-position: 0 0, 0 0;
@@ -526,7 +541,7 @@ h2 {
 
 .game-button:hover {
   /*Manipulations stuff*/
-  transform: rotate(-3deg) !important;
+  transform: rotate(3deg) !important;
 }
 
 .game-button:active {
